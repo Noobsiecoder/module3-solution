@@ -1,3 +1,48 @@
-h1 {
-    color: blue;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.web-header {
+    background-color: #f8f9fa;
+}
+
+.company-name, .company-name:hover {
+    padding-top: .5em;
+    font-size: 2.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.menu-title {
+    padding-top: 0.4em;
+    margin-bottom: 1.4em;
+    font-size: 1.5em;
+}
+
+#content1,
+#content2,
+#content3 {
+    margin-bottom: 1.2em;
+    padding: 1em;
+    background-color: #eeeeee;
+}
+
+#title1,
+#title2,
+#title3 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#dish1,
+#dish2,
+#dish3 {
+    padding-top: 0.7em;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
